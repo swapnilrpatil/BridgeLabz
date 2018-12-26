@@ -1,3 +1,12 @@
+/**@purpose  : Program to print the tic tac here we give input by user
+ * 
+ * @author   : swapnil patil
+ * 
+ * @since    : 13/12/2018
+ * 
+ * @version  : java jdk
+ */
+
 package com.bridgelabz.stringarray;
 
 
@@ -8,19 +17,17 @@ import com.utility.Utility;
 
 
 	public class TicTacToe {
-
-			public Scanner sc = new Scanner(System.in);
-			
-			
-
 				public static void main(String args[]){
-
-					//TicTacToe t1 = new TicTacToe();
+					//System.out.println(" Enter your position:");
 					
+					
+					//int pos = Utility.getInt();
 					String res = Utility.ticTacToe();
 					System.out.println(res);
 			}
+				
 	}
 
 	
 
+	

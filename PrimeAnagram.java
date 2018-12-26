@@ -7,14 +7,15 @@ public class PrimeAnagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		for(int i=0;i<1000;i++) {
-			
-			if( Utility.findprimenumber(i) && Utility.isAnagram(s1, s2){
-				System.out.println("Print "+i);
-				
-			}
-		}
+		System.out.println("Prime numbers in range 1-1000");
+		int [] primeAnagram = Utility.primeAnagrams(1000);
+
+		int[][] printArray = Utility.twoDPrimeArray(primeAnagram);
+		Utility.printPrimeArray(printArray);
+		
+		
 		
 	}
+	}
 
-}
+

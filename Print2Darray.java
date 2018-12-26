@@ -1,3 +1,12 @@
+/**@purpose  : Program to print 2D Array 
+ * 
+ * @author   : swapnil patil
+ * 
+ * @since    : 13/12/2018
+ * 
+ * @version  : java jdk
+ */
+
 package com.bridgelabz.stringarray;
 
 import com.utility.Utility;
@@ -18,6 +27,7 @@ public class Print2Darray {
 				array[i][j]=" ";
 			}
 		}
+		
 		int columnIndex=0;
 		for(int rowIndex=0;rowIndex<10;rowIndex++)
 		{
@@ -37,4 +47,6 @@ public class Print2Darray {
 		}
 		Utility.print2DArrayElement(array);
 	}
+	
 }
+
